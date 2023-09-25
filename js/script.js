@@ -19,7 +19,7 @@ window.onscroll = () => {
         }
     });
 
-    // Sticky header
+    // Sticky headers
     let header = document.querySelector('header');
     header.classList.toggle('sticky', window.scrollY > 100);
 };
